@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(204, 255, 255);
+  font-family: Sans-serif;
+  color: #293d3d;
+}
+#head {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+}
+#snakebody {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  border-radius: 100%;
+}
+
+#board {
+  height: 700px;
+  width: 700px;
+  border: 1px black solid;
+  background-image: url("assets/grass.jpg");
+  z-index: -1;
+}
+
+#apple {
+  height: 50px;
+  width: 50px;
+  position: absolute; 
+}
+
+#score {
+  border: 1px black solid;
+  border-radius: 20px;
+  background-color: rgba(204, 255, 255, .4);
+  height: 200px;
+  width: 400px;
+  position: absolute;
+  z-index: 2;
+  top: 253;
+  left: 153;
+  box-shadow: 5px 5px 1px rgba(153, 255, 204, .8);
+  /*will change to visable*/
+  /*visibility: hidden; */
+}
+
+#btn {
+  padding: 15px;
+  background-color: rgba(153, 255, 204, .8);
+  border: 1px black solid;
+  border-radius: 20px;
+  font-weight: bold;
+}
